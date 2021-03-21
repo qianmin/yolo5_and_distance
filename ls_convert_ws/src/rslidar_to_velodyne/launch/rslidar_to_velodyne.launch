@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="rslidar_to_velodyne" pkg="rslidar_to_velodyne" type="rslidar_to_velodyne" output="screen">
+        <param name="rslidar_topic" value="lslidar_point_cloud"/>
+    </node> 
+</launch>
