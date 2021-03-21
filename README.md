@@ -24,7 +24,7 @@ yolov5、激光雷达融合感知
    ```Shell
    rosrun yolo_rect yolo_rect_pub.py
    roslaunch lidar_camera_fusion yolo_distance.launch 
-   rosrun lidar_camera_fusion yolo_dtance_show.py 
+   rosrun lidar_camera_fusion yolo_distance_show.py 
    
    roslaunch lidar_camera_fusion lidar_camera_fusion.launch
    ```
