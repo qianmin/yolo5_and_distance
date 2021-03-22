@@ -10,7 +10,7 @@ yolov5、激光雷达融合感知
    ```
  - 启动激光雷达转换
    ```Shell
-   roslaunch rslidar_to_velodyne rslidar_to_vdyne.launch 
+   roslaunch rslidar_to_velodyne rslidar_to_velodyne.launch  
    ```
  - 启动原始图像
    ```Shell
