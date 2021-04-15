@@ -62,3 +62,19 @@ yolov5 index 和id不是一个东西
 cls =index
 names='tv'
 ```
+
+# 3 bag版本
+```
+rosbag play -l xx.bag
+
+roslaunch compressed_to_raw run.py
+
+roslaunch rslidar_to_velodyne rslidar_to_velodyne.launch 
+
+(torch18)rosrun yolo_rect yolo_rect_pub.py
+
+roslaunch lidar_camera_fusion yolo_distance.launch 
+
+(torch18)rosrun lidar_camera_fusion yolo_distance_show.py 
+
+```
